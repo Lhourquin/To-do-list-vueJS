@@ -1,5 +1,5 @@
 Vue.component ('todo-item',{
-  template : '<li>{{title}}<span><button v-on:click="$emit(`remove`)">supprimer</button></span></li>',
+  template : '<li>{{title}}<span><button class="deep-purple darken-4 lime-text darken-4" v-on:click="$emit(`remove`)">supprimer</button></span></li>',
   props : ['title']
 })
 
