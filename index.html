@@ -16,6 +16,9 @@
       v-for="(item, index) in items"
       v-bind:key="item.id"
       v-bind:title="item.title"
+      v-on:remove="items.splice(index, 1)"
+
+      
       ></todo-item>
 </ul>
 </div>
