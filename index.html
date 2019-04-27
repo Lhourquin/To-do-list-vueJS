@@ -8,12 +8,14 @@
   <meta charset="UTF-8">
   <title></title>
 </head>
-<body class="card-panel teal lighten-2">
+<body class="teal lighten-2">
   
-<div id="container-to-do-list">
+<div class="container" id="container-to-do-list">
   <h1 class="yellow-text">TO DO LIST</h1>
-  <input class=" card-panel pink  red lighten-5  deep-orange-text accent-4" v-model='newToDo' type="text">
-  <button class="blue lighten-5 orange-text darken-1" v-on:click='addNewList'>Ajouter</button>
+  <div class="row">
+  <input class="col m9 card-panel pink  red lighten-5  deep-orange-text accent-4" v-model='newToDo' type="text">
+  <button class="col m3 blue lighten-5 orange-text darken-1" v-on:click='addNewList'>Ajouter</button>
+</div>
   <ul>
       <todo-item class="purple lighten-3"
       v-for="(item, index) in items"
@@ -25,8 +27,8 @@
       ></todo-item>
 
 </ul>
-</div>
 
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
