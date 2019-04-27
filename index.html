@@ -13,7 +13,7 @@
 <div class="container" id="container-to-do-list">
   <h1 class="yellow-text">TO DO LIST</h1>
   <div class="row">
-  <input class="col m9 card-panel pink  red lighten-5  deep-orange-text accent-4" v-model='newToDo' type="text">
+  <input @keyup.enter='addNewList' class="col m9 card-panel pink  red lighten-5  deep-orange-text accent-4" v-model='newToDo' type="text">
   <button class="col m3 blue lighten-5 orange-text darken-1" v-on:click='addNewList'>Ajouter</button>
 </div>
   <ul>
