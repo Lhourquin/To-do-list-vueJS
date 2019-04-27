@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  
+<div id="container-to-do-list">
+
+  <input v-model='newToDo' type="text">
+  <button v-on:click='addNewList'>Ajouter</button>
+  <ul>
+      <todo-item
+      v-for="(item, index) in items"
+      v-bind:key="item.id"
+      v-bind:title="item.title"
+      ></todo-item>
+</ul>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
