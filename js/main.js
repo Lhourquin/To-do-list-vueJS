@@ -4,6 +4,8 @@ Vue.component ('todo-item',{
   props : ['title']
 })
 
+
+
 new Vue ({
   el : '#container-to-do-list',
   data : {
@@ -14,12 +16,14 @@ new Vue ({
   },
     methods : {
     addNewList : function () {
+    
       this.items.push({
         id : this.nextToDo++,
         title : this.newToDo
       })
       this.newToDo = ''
     }
+  
   }
 })
 
