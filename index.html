@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" href="css/main.css">
   <meta charset="UTF-8">
   <title></title>
 </head>
-<body>
+<body class="card-panel teal lighten-2">
   
 <div id="container-to-do-list">
-
-  <input v-model='newToDo' type="text">
-  <button v-on:click='addNewList'>Ajouter</button>
+  <h1 class="yellow-text">TO DO LIST</h1>
+  <input class=" card-panel pink  red lighten-5  deep-orange-text accent-4" v-model='newToDo' type="text">
+  <button class="blue lighten-5 orange-text darken-1" v-on:click='addNewList'>Ajouter</button>
   <ul>
-      <todo-item
+      <todo-item class="purple lighten-3"
       v-for="(item, index) in items"
       v-bind:key="item.id"
       v-bind:title="item.title"
@@ -20,6 +23,7 @@
 
       
       ></todo-item>
+
 </ul>
 </div>
 
