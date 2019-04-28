@@ -11,6 +11,7 @@ Coder le js uniquement avec le framework VueJS, ajouter en cliquant sur le bouto
 * HTML5
 * JAVASCRIPT(VueJS only)
 * CSS (Materialiaze)
-## Dans quel cadre ai-je fait cet exercice ?
 
-Dans le cadre de la formation SIMPLON développeur WEB.
+## Année et ebtrprise/organisme :
+
+Projet commencer dans le cadre de la formation SIMPLON développeur WEB en Avril 2019.
