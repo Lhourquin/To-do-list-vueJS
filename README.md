@@ -12,6 +12,6 @@ Coder le js uniquement avec le framework VueJS, ajouter en cliquant sur le bouto
 * JAVASCRIPT(VueJS only)
 * CSS (Materialiaze)
 
-## Année et ebtrprise/organisme :
+## Année et entreprise/organisme :
 
 Projet commencer dans le cadre de la formation SIMPLON développeur WEB en Avril 2019.
