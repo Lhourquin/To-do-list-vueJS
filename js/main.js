@@ -12,7 +12,7 @@ new Vue ({
     newToDo : '',
     items : [
     ],
-    nextToDo : 0
+    nextToDo : 0,
   },
     methods : {
     addNewList : function () {
